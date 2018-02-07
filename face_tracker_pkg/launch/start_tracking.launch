@@ -1,0 +1,9 @@
+<launch>
+
+  <include file="$(find face_tracker_pkg)/launch/start_usb_cam.launch"/> 
+
+  <rosparam file="$(find face_tracker_pkg)/config/track.yaml" command="load"/>
+
+  <node name="face_tracker" pkg="face_tracker_pkg" type="face_tracker_node" output="screen" />
+
+</launch>
