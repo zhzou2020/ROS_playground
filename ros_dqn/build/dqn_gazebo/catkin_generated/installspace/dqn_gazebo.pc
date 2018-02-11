@@ -1,0 +1,8 @@
+prefix=/home/zhuojin/ros_dqn/install
+
+Name: dqn_gazebo
+Description: Description of dqn_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zhuojin/ros_dqn/install/lib 
+Requires: 
